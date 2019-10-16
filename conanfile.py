@@ -4,6 +4,7 @@ import os
 
 class Sol2Conan(ConanFile):
     name = "sol2"
+    version = "2.20.6"
     description = "Keep it short"
     topics = ("conan", "libname", "logging")
     url = "https://github.com/bincrafters/conan-libname"
@@ -19,7 +20,7 @@ class Sol2Conan(ConanFile):
         os.rename(extracted_dir, self._source_subfolder)
 
     def package(self):
-        include_folder = os.path.join(self._source_subfolder, "include")
+        include_folder = os.path.join(self._source_subfolder, "single/sol")
         self.copy(pattern="LICENSE", dst="licenses", src=self._source_subfolder)
         self.copy(pattern="*", dst="include", src=include_folder)
 
