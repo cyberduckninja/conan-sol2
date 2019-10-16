@@ -2,7 +2,7 @@ from conans import ConanFile, tools
 import os
 
 
-class LibnameConan(ConanFile):
+class Sol2Conan(ConanFile):
     name = "sol2"
     description = "Keep it short"
     topics = ("conan", "libname", "logging")
