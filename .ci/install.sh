@@ -21,5 +21,6 @@ fi
 
 pip install conan --upgrade
 pip install conan_package_tools bincrafters_package_tools
+apt install lua5.3 liblua5.3-dev
 
 conan user
