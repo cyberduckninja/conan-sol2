@@ -34,9 +34,9 @@ class Sol2Conan(ConanFile):
         pack_name = None
         if os_info.linux_distro == "ubuntu":
             if os_info.os_version > "12":
-                pack_name = ["lua5.3", "liblua5.3-dev"]
+                pack_name = "lua5.3 liblua5.3-dev"
             else:
-                pack_name = ["lua5.3", "liblua5.3-dev"]
+                pack_name = "lua5.3 liblua5.3-dev"
         # elif os_info.linux_distro == "fedora" or os_info.linux_distro == "centos":
         #    pack_name = "package_name_in_fedora_and_centos"
         elif os_info.is_macos:
