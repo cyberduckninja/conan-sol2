@@ -6,10 +6,12 @@ import os
 class Sol2Conan(ConanFile):
     name = "sol2"
     version = "2.20.6"
-    description = "Keep it short"
-    topics = ("conan", "libname", "logging")
-    url = "https://github.com/bincrafters/conan-libname"
-    homepage = "https://github.com/original_author/original_lib"
+    description = "sol is a C++ library binding to Lua. It currently supports all Lua versions 5.1+ (LuaJIT 2.x "\
+                  "included). sol aims to be easy to use and easy to add to a project. The library is header-only for "\
+                  "easy integration with projects."
+    topics = ("conan", "lua")
+    url = "https://github.com/jinntechio/conan-sol2"
+    homepage = "https://github.com/ThePhD/sol2"
     license = "MIT"
     no_copy_source = True
 
@@ -45,6 +47,5 @@ class Sol2Conan(ConanFile):
         #    pack_name = "package_name_in_solaris"
 
         if pack_name:
-            for i in pack_name:
-                installer = SystemPackageTool()
-                installer.install(i)  # Install the package, will update the package database i
+            installer = SystemPackageTool()
+            installer.install(pack_name)
