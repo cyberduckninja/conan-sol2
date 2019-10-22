@@ -24,6 +24,12 @@ If you wish to report an issue or make a request for a package, please do so her
 
 ## For Users
 
+Add the corresponding remote to your conan:
+
+```bash
+    conan remote add jinncrafters  https://bintray.com/jinncrafters/conan
+```
+
 ### Basic setup
 
     $ conan install sol2/2.20.6/@jinntechio/stable
