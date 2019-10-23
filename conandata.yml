@@ -1,0 +1,4 @@
+sources:
+  "2.20.6":
+    url: "https://github.com/ThePhD/sol2/archive/v2.20.6.tar.gz"
+    #sha256: "98f6f57aab0a424469619ed3047728f0d3901ce8f0dea919c11e7966d807e870"
