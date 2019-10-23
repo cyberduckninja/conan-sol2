@@ -22,19 +22,19 @@ sol aims to be easy to use and easy to add to a project. The library is header-o
 Add the corresponding remote to your conan:
 
 ```bash
-    conan remote add jinncrafters  https://bintray.com/jinncrafters/conan
+    conan remote add jinncrafters https://api.bintray.com/conan/jinncrafters/conan
 ```
 
 ### Basic setup
-
-    $ conan install sol2/2.20.6/@jinntechio/stable
-
+```bash
+    $ conan install sol2/2.20.6@jinncrafters/stable
+```
 ### Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    sol2/2.20.6/@jinntechio/stable
+    sol2/2.20.6@jinncrafters/stable
 
     [generators]
     cmake
