@@ -17,11 +17,6 @@ Jinncrafters.com packages can be found in the following public Conan repository:
 sol is a C++ library binding to Lua. It currently supports all Lua versions 5.1+ (LuaJIT 2.x included). 
 sol aims to be easy to use and easy to add to a project. The library is header-only for easy integration with projects.
 
-## Issues
-
-If you wish to report an issue or make a request for a package, please do so here:
-
-
 ## For Users
 
 Add the corresponding remote to your conan:
