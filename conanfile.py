@@ -10,7 +10,7 @@ class Sol2Conan(ConanFile):
                   "included). sol aims to be easy to use and easy to add to a project. The library is header-only for "\
                   "easy integration with projects."
     topics = ("conan", "lua")
-    url = "https://github.com/jinntechio/conan-sol2"
+    url = "https://github.com/jinncrafters/conan-sol2"
     homepage = "https://github.com/ThePhD/sol2"
     license = "MIT"
     no_copy_source = True
